@@ -138,6 +138,7 @@ void C_Objeto::Set_Font(string Fuente) {
 		TEXT(Fuente.c_str()));	// Fuente
 	
 	SendMessage(hWnd, WM_SETFONT, (WPARAM)hFont, MAKELPARAM(TRUE, 0));
+
 }
 
 //Color de fondo

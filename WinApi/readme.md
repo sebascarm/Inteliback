@@ -1,4 +1,4 @@
-# WINAPI V 5.0	
+# WINAPI V 5.1	
 
     - Frame         v1.1 
     - GroupBox      v1.0 
@@ -12,7 +12,7 @@
     - RichText      v1.0 
     - Shape         v1.6
     - Graphic       v1.0
-    - TreeView      v1.0 (draft)
+    - TreeView      v1.1 (funciona)04/06/2021
 
 ## ULTIMA MODIFICACION DOCUMENTADA          
 
@@ -67,3 +67,36 @@
 ### 06/02/2020
     - ListBox   v1.0 (ListBox)
 
+
+
+## Pasos para crear objeto
+
+    - CREACION
+    - DRAW
+    - CONFIG / EVENTOS
+    - LOOP
+
+### CREACION
+      - Instancia de variable
+      - Create
+    
+### Objeto
+  - CREATE    
+    - Create Padre
+      - Puntero a Padre
+      - Propiedades de dimension
+    - Contener
+      - Datos de contenedor
+    - Definicion de "Tipo y Estilo
+
+    ---
+  - DRAW    
+    - Objeto Draw
+      - hWnd = CreateWindowEx
+        - Asignacion de propiedades
+      - Seteo Fuente
+        - Envio de Mensaje de asignacion de Fuente  
+    
+    ---
+  - LOOP
+    - CallBack
